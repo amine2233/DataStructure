@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6779F4CE2143CD5C00C97300"
-               BuildableName = "DataStructure_macOS.framework"
+               BuildableName = "DataStructure.framework"
                BlueprintName = "DataStructure macOS"
                ReferencedContainer = "container:DataStructure.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6779F4CE2143CD5C00C97300"
-            BuildableName = "DataStructure_macOS.framework"
+            BuildableName = "DataStructure.framework"
             BlueprintName = "DataStructure macOS"
             ReferencedContainer = "container:DataStructure.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6779F4CE2143CD5C00C97300"
-            BuildableName = "DataStructure_macOS.framework"
+            BuildableName = "DataStructure.framework"
             BlueprintName = "DataStructure macOS"
             ReferencedContainer = "container:DataStructure.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6779F4CE2143CD5C00C97300"
-            BuildableName = "DataStructure_macOS.framework"
+            BuildableName = "DataStructure.framework"
             BlueprintName = "DataStructure macOS"
             ReferencedContainer = "container:DataStructure.xcodeproj">
          </BuildableReference>

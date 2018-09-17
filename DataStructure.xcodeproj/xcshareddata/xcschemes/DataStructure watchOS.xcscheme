@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6779F4A52143CD3B00C97300"
-               BuildableName = "DataStructure_watchOS.framework"
+               BuildableName = "DataStructure.framework"
                BlueprintName = "DataStructure watchOS"
                ReferencedContainer = "container:DataStructure.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6779F4A52143CD3B00C97300"
-            BuildableName = "DataStructure_watchOS.framework"
+            BuildableName = "DataStructure.framework"
             BlueprintName = "DataStructure watchOS"
             ReferencedContainer = "container:DataStructure.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6779F4A52143CD3B00C97300"
-            BuildableName = "DataStructure_watchOS.framework"
+            BuildableName = "DataStructure.framework"
             BlueprintName = "DataStructure watchOS"
             ReferencedContainer = "container:DataStructure.xcodeproj">
          </BuildableReference>

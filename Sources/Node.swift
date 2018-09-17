@@ -39,7 +39,7 @@ final public class Node<T> {
         return IndexPath(index: level)
     }
     
-    init(value: T, parent: Node? = nil) {
+    public init(value: T, parent: Node? = nil) {
         
         precondition(Thread.isMainThread)
         
@@ -48,13 +48,24 @@ final public class Node<T> {
     }
     
     @discardableResult
-    func createNode(value: T) -> Node? {
+    public func createNode(value: T) -> Node? {
         let node = Node(value: value, parent: self)
         children.append(node)
         return node
     }
     
-    func add(child: Node) {
+    @discardableResult
+    public func createNodes(array: [T]) -> [Node]? {
+        var values: [Node] = []
+        array.forEach { value in
+            let node = Node(value: value, parent: self)
+            children.append(node)
+            values.append(node)
+        }
+        return values
+    }
+    
+    public func add(child: Node) {
         children.append(child)
         child.parent = self
     }
