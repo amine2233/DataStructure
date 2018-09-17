@@ -2,15 +2,15 @@ import Foundation
 
 final public class Node<T> {
     
-    var value: T
-    var children: [Node] = []
-    weak var parent: Node?
+    public var value: T
+    public var children: [Node] = []
+    public weak var parent: Node?
     
-    var isRoot: Bool {
+    public var isRoot: Bool {
         return parent == nil
     }
     
-    var hasChildren: Bool {
+    public var hasChildren: Bool {
         return !children.isEmpty
     }
     
