@@ -1,8 +1,21 @@
 import Foundation
 
-final public class Node<T> {
+protocol NodeProtocol {
+    associatedtype Item
+    var value: Item { get set }
+    
+    var isRoot: Bool { get }
+    var hasChildren: Bool { get }
+    var numberOfChildren: Int { get }
+    var level: Int { get }
+    var isLeaf: Bool { get }
+    var indexPath: IndexPath { get }
+}
+
+final public class Node<T>: NodeProtocol {
     
     public var value: T
+    
     public var children: [Node] = []
     public weak var parent: Node?
     

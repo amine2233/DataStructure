@@ -21,6 +21,10 @@
 		6779F5142143D05400C97300 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5122143D05400C97300 /* Node.swift */; };
 		6779F5152143D05400C97300 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5122143D05400C97300 /* Node.swift */; };
 		6779F5162143D05400C97300 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5122143D05400C97300 /* Node.swift */; };
+		AA2B346F21500C5E00776C9A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B346E21500C5E00776C9A /* Event.swift */; };
+		AA2B347021500C5E00776C9A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B346E21500C5E00776C9A /* Event.swift */; };
+		AA2B347121500C5E00776C9A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B346E21500C5E00776C9A /* Event.swift */; };
+		AA2B347221500C5E00776C9A /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2B346E21500C5E00776C9A /* Event.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +69,7 @@
 		6779F5032143CE3400C97300 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		6779F5042143CE3400C97300 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		6779F5122143D05400C97300 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		AA2B346E21500C5E00776C9A /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +160,7 @@
 				6779F4E92143CE2800C97300 /* Info-watchOS.plist */,
 				6779F4EA2143CE2800C97300 /* Info-tvOS.plist */,
 				6779F4EB2143CE2800C97300 /* Info-macOS.plist */,
+				AA2B346E21500C5E00776C9A /* Event.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -450,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2B346F21500C5E00776C9A /* Event.swift in Sources */,
 				6779F5132143D05400C97300 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2B347021500C5E00776C9A /* Event.swift in Sources */,
 				6779F5142143D05400C97300 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2B347121500C5E00776C9A /* Event.swift in Sources */,
 				6779F5152143D05400C97300 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +499,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA2B347221500C5E00776C9A /* Event.swift in Sources */,
 				6779F5162143D05400C97300 /* Node.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
