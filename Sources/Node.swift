@@ -32,7 +32,7 @@ final public class Node<T> {
     public var indexPath: IndexPath {
         if let parent = parent {
             let parentPath = parent.indexPath
-            if let childIndex = parent.index(for: self) {
+            if let childIndex = parent.index(ofChild: self) {
                 return parentPath.appending(childIndex)
             }
         }
@@ -77,7 +77,7 @@ final public class Node<T> {
         return children[index]
     }
     
-    public func index(for node: Node) -> Int? {
+    public func index(ofChild node: Node) -> Int? {
         return children.index { (oneChildNode) -> Bool in
             return oneChildNode === node
         }
@@ -191,8 +191,7 @@ extension Node: Equatable {
 
 extension Node: CustomStringConvertible {
     public var description: String {
-        var text = "\(value) at \(indexPath) for level \(level) \n"
-        text += "\((0...level).map { _ in return " " })"
+        var text = "\(value) at \(indexPath) for level \(level)"
         
         if !children.isEmpty {
             text += " {" + children.map { $0.description }.joined(separator: ", ") + "} "
@@ -229,5 +228,42 @@ extension Node where T: Equatable {
         }
         
         return nil
+    }
+}
+
+extension Node: Hashable where T: Hashable {
+    public var hashValue: Int {
+        return value.hashValue
+    }
+}
+
+extension Node where T: Hashable {
+    public func nodesOrganizedByParent(_ nodes: [Node]) -> [Node: [Node]] {
+        let nodesWithParents = nodes.filter { $0.parent != nil }
+        return Dictionary(grouping: nodesWithParents, by: { $0.parent! })
+    }
+    
+    public func indexSetsGroupedByParent(_ nodes: [Node]) -> [Node: IndexSet] {
+        let d = nodesOrganizedByParent(nodes)
+        
+        let indexSetDictionary = d.mapValues { (nodes) -> IndexSet in
+            
+            var indexSet = IndexSet()
+            if nodes.isEmpty {
+                return indexSet
+            }
+            
+            if let parent = nodes.first?.parent {
+                for node in nodes {
+                    if let index = parent.index(ofChild: node) {
+                        indexSet.insert(index)
+                    }
+                }
+            }
+            
+            return indexSet
+        }
+        
+        return indexSetDictionary
     }
 }
