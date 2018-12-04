@@ -55,6 +55,19 @@ class DataStructure_Node: XCTestCase {
         XCTAssertTrue(twenty!.isLeaf)
     }
     
+    func testIndexPath() {
+        XCTAssertNotNil(nodeZero.indexPath)
+        XCTAssertEqual(nodeZero.indexPath.first, 0)
+        XCTAssertEqual(nodeOne.indexPath.first, 0)
+        XCTAssertEqual(nodeOne.indexPath.last, 0)
+        XCTAssertEqual(nodeTwo.indexPath.last, 1)
+
+        let nodeTwenty = Node<Int>(value: 20)
+        nodeTwenty.parent = nodeZero
+        XCTAssertNotNil(nodeTwenty.indexPath)
+        XCTAssertEqual(nodeTwenty.indexPath.first, 1)
+    }
+    
     func testGetChildAtPosition() {
         let getNodeThree = nodeZero.child(at: 2)
         XCTAssertNotNil(getNodeThree)
