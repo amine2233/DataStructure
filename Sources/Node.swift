@@ -191,13 +191,7 @@ extension Node: Equatable {
 
 extension Node: CustomStringConvertible {
     public var description: String {
-        var text = "\(value) at \(indexPath) for level \(level)"
-        
-        if !children.isEmpty {
-            text += " {" + children.map { $0.description }.joined(separator: ", ") + "} "
-        }
-        
-        return text
+        return "\(value)"
     }
 }
 
@@ -238,17 +232,17 @@ extension Node: Hashable where T: Hashable {
 }
 
 extension Node where T: Hashable {
-    public func nodesOrganizedByParent(_ nodes: [Node]) -> [Node: [Node]] {
+    public static func nodesOrganizedByParent(_ nodes: [Node]) -> [Node: [Node]] {
         let nodesWithParents = nodes.filter { $0.parent != nil }
         return Dictionary(grouping: nodesWithParents, by: { $0.parent! })
     }
     
-    public func indexSetsGroupedByParent(_ nodes: [Node]) -> [Node: IndexSet] {
-        let d = nodesOrganizedByParent(nodes)
+    public static func indexSetsGroupedByParent(_ nodes: [Node]) -> [Node: IndexSet] {
+        let nodesOrganizedByParent = Node.nodesOrganizedByParent(nodes)
         
-        let indexSetDictionary = d.mapValues { (nodes) -> IndexSet in
-            
+        let indexSetDictionary = nodesOrganizedByParent.mapValues { (nodes) -> IndexSet in
             var indexSet = IndexSet()
+            
             if nodes.isEmpty {
                 return indexSet
             }

@@ -55,6 +55,11 @@ class DataStructure_Node: XCTestCase {
         XCTAssertTrue(twenty!.isLeaf)
     }
     
+    func testCreateNodes() {
+        let hundredNodes = nodeZero.createNodes(array: (100..<125).map { $0 })
+        XCTAssertNotNil(hundredNodes)
+    }
+    
     func testIndexPath() {
         XCTAssertNotNil(nodeZero.indexPath)
         XCTAssertEqual(nodeZero.indexPath.first, 0)
@@ -76,6 +81,9 @@ class DataStructure_Node: XCTestCase {
         let getNodeTen = nodeOne.child(at: 0)
         XCTAssertNotNil(getNodeTen)
         XCTAssertEqual(getNodeTen, nodeTen)
+        
+        let getNodeNotExist = nodeOne.child(at: 5)
+        XCTAssertNil(getNodeNotExist)
     }
     
     func testIndexOfChild() {
@@ -115,7 +123,12 @@ class DataStructure_Node: XCTestCase {
     
     func testRemoveNode() {
         let nodeNegative = Node<Int>(value: -1)
+        
+        XCTAssertNil(nodeZero.remove(nodeNegative))
+        XCTAssertNil(nodeOne.remove(nodeNegative))
+        
         nodeZero.add(child: nodeNegative)
+        
         XCTAssertTrue(nodeZero.contain(nodeNegative))
         XCTAssertNotNil(nodeZero.remove(nodeNegative))
         XCTAssertFalse(nodeZero.contain(nodeNegative))
@@ -155,14 +168,21 @@ class DataStructure_Node: XCTestCase {
     }
     
     func testNodesOrganizedByParentOfNodes() {
-        XCTAssertEqual(nodeZero.nodesOrganizedByParent([nodeOne,nodeTwo]).count, 1)
-        XCTAssertEqual(nodeZero.nodesOrganizedByParent([nodeOne,nodeTwo,nodeThree]).count, 1)
-        XCTAssertEqual(nodeZero.nodesOrganizedByParent([nodeOne,nodeTwo,nodeThree])[nodeZero], [nodeOne,nodeTwo,nodeThree])
-        XCTAssertEqual(nodeOne.nodesOrganizedByParent([nodeTen]).count, 1)
+        XCTAssertEqual(Node.nodesOrganizedByParent([nodeOne,nodeTwo]).count, 1)
+        XCTAssertEqual(Node.nodesOrganizedByParent([nodeOne,nodeTwo,nodeThree]).count, 1)
+        XCTAssertEqual(Node.nodesOrganizedByParent([nodeOne,nodeTwo,nodeThree])[nodeZero], [nodeOne,nodeTwo,nodeThree])
+        XCTAssertEqual(Node.nodesOrganizedByParent([nodeTen]).count, 1)
     }
     
     func testIndexSetsGroupedByParentOfNode() {
-        XCTAssertEqual(nodeZero.indexSetsGroupedByParent([nodeOne]).count, 1)
+        XCTAssertEqual(Node.indexSetsGroupedByParent([nodeOne]).count, 1)
+        let nodeEmpty = Node(value: 890)
+        nodeEmpty.createNode(value: 891)
+        nodeEmpty.createNode(value: 892)
+        nodeEmpty.createNode(value: 893)
+        nodeEmpty.children.forEach {
+            XCTAssertEqual(Node.indexSetsGroupedByParent($0.children).count, 0)
+        }
     }
     
     func testSearchValueNode() {
