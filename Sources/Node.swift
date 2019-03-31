@@ -226,8 +226,8 @@ extension Node where T: Equatable {
 }
 
 extension Node: Hashable where T: Hashable {
-    public var hashValue: Int {
-        return value.hashValue
+    public func hash(into hasher: inout Hasher) {
+        hasher.combine(value)
     }
 }
 

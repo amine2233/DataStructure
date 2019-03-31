@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 		s.name 				= "DataStructure"
-		s.version 			= "0.2.0"
+		s.version 			= "0.2.1"
 		s.summary         	= "Sort description of 'DataStructure' framework"
 	    s.homepage        	= "https://github.com/amine2233/DataStructure"
 	    s.license           = "MIT"
