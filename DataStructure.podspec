@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 		s.name 				= "DataStructure"
-		s.version 			= "0.2.1"
+		s.version 			= "1.0.0"
 		s.summary         	= "Sort description of 'DataStructure' framework"
 	    s.homepage        	= "https://github.com/amine2233/DataStructure"
 	    s.license           = "MIT"
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
 	    s.source            = { :git => "https://github.com/amine2233/DataStructure.git", :tag => s.version.to_s }
 	    s.source_files      = "Sources/**/*.swift"
 	    s.pod_target_xcconfig = {
-    		'SWIFT_VERSION' => '4.2'
+    		'SWIFT_VERSION' => '5.0'
   		}
   		s.module_name = s.name
-  		s.swift_version = '4.2'
+  		s.swift_version = '5.0'
 	end

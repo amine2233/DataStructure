@@ -78,7 +78,7 @@ final public class Node<T> {
     }
     
     public func index(ofChild node: Node) -> Int? {
-        return children.index { (oneChildNode) -> Bool in
+        return children.firstIndex { (oneChildNode) -> Bool in
             return oneChildNode === node
         }
     }
@@ -156,7 +156,7 @@ extension Node: Equatable {
     
     @discardableResult
     public func remove(_ node: Node) -> Node? {
-        if let index = children.index(where: { $0 == node }) {
+        if let index = children.firstIndex(where: { $0 == node }) {
             children[index].parent = nil
             return children.remove(at: index)
         }

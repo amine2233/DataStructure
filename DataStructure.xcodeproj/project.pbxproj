@@ -14,16 +14,16 @@
 		6779F4ED2143CE2800C97300 /* DataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 6779F4E72143CE2800C97300 /* DataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6779F4EE2143CE2800C97300 /* DataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 6779F4E72143CE2800C97300 /* DataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6779F4EF2143CE2800C97300 /* DataStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 6779F4E72143CE2800C97300 /* DataStructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6779F5052143CE3400C97300 /* DataStructure_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5012143CE3400C97300 /* DataStructure_Tests.swift */; };
-		6779F5062143CE3400C97300 /* DataStructure_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5012143CE3400C97300 /* DataStructure_Tests.swift */; };
-		6779F5072143CE3400C97300 /* DataStructure_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5012143CE3400C97300 /* DataStructure_Tests.swift */; };
+		6779F5052143CE3400C97300 /* DataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5012143CE3400C97300 /* DataStructureTests.swift */; };
+		6779F5062143CE3400C97300 /* DataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5012143CE3400C97300 /* DataStructureTests.swift */; };
+		6779F5072143CE3400C97300 /* DataStructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5012143CE3400C97300 /* DataStructureTests.swift */; };
 		6779F5132143D05400C97300 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5122143D05400C97300 /* Node.swift */; };
 		6779F5142143D05400C97300 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5122143D05400C97300 /* Node.swift */; };
 		6779F5152143D05400C97300 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5122143D05400C97300 /* Node.swift */; };
 		6779F5162143D05400C97300 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6779F5122143D05400C97300 /* Node.swift */; };
-		67DE986F214564EA009C9A56 /* DataStructure_Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE986E214564EA009C9A56 /* DataStructure_Node.swift */; };
-		67DE9870214564EA009C9A56 /* DataStructure_Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE986E214564EA009C9A56 /* DataStructure_Node.swift */; };
-		67DE9871214564EA009C9A56 /* DataStructure_Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE986E214564EA009C9A56 /* DataStructure_Node.swift */; };
+		67DE986F214564EA009C9A56 /* DataStructureNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE986E214564EA009C9A56 /* DataStructureNodeTests.swift */; };
+		67DE9870214564EA009C9A56 /* DataStructureNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE986E214564EA009C9A56 /* DataStructureNodeTests.swift */; };
+		67DE9871214564EA009C9A56 /* DataStructureNodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DE986E214564EA009C9A56 /* DataStructureNodeTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,12 +63,13 @@
 		6779F4E92143CE2800C97300 /* Info-watchOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-watchOS.plist"; sourceTree = "<group>"; };
 		6779F4EA2143CE2800C97300 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		6779F4EB2143CE2800C97300 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
-		6779F5012143CE3400C97300 /* DataStructure_Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructure_Tests.swift; sourceTree = "<group>"; };
+		6779F5012143CE3400C97300 /* DataStructureTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStructureTests.swift; sourceTree = "<group>"; };
 		6779F5022143CE3400C97300 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
 		6779F5032143CE3400C97300 /* Info-tvOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
 		6779F5042143CE3400C97300 /* Info-macOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
 		6779F5122143D05400C97300 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
-		67DE986E214564EA009C9A56 /* DataStructure_Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructure_Node.swift; sourceTree = "<group>"; };
+		67DE986E214564EA009C9A56 /* DataStructureNodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructureNodeTests.swift; sourceTree = "<group>"; };
+		AA04E46B226EFCEE001C9A90 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +131,7 @@
 		6779F47D2143CCD800C97300 = {
 			isa = PBXGroup;
 			children = (
+				AA04E46B226EFCEE001C9A90 /* Package.swift */,
 				6779F4E62143CE2800C97300 /* Sources */,
 				6779F5002143CE3400C97300 /* Tests */,
 				6779F48A2143CD2B00C97300 /* Products */,
@@ -153,12 +155,9 @@
 		6779F4E62143CE2800C97300 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				6779F5122143D05400C97300 /* Node.swift */,
+				AA04E467226EFA3D001C9A90 /* DataStructure */,
 				6779F4E72143CE2800C97300 /* DataStructure.h */,
-				6779F4E82143CE2800C97300 /* Info-iOS.plist */,
-				6779F4E92143CE2800C97300 /* Info-watchOS.plist */,
-				6779F4EA2143CE2800C97300 /* Info-tvOS.plist */,
-				6779F4EB2143CE2800C97300 /* Info-macOS.plist */,
+				AA04E469226EFA73001C9A90 /* config */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -166,13 +165,48 @@
 		6779F5002143CE3400C97300 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6779F5012143CE3400C97300 /* DataStructure_Tests.swift */,
+				AA04E468226EFA62001C9A90 /* DataStructureTests */,
+				AA04E46A226EFA84001C9A90 /* config */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		AA04E467226EFA3D001C9A90 /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				6779F5122143D05400C97300 /* Node.swift */,
+			);
+			path = DataStructure;
+			sourceTree = "<group>";
+		};
+		AA04E468226EFA62001C9A90 /* DataStructureTests */ = {
+			isa = PBXGroup;
+			children = (
+				6779F5012143CE3400C97300 /* DataStructureTests.swift */,
+				67DE986E214564EA009C9A56 /* DataStructureNodeTests.swift */,
+			);
+			path = DataStructureTests;
+			sourceTree = "<group>";
+		};
+		AA04E469226EFA73001C9A90 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				6779F4E82143CE2800C97300 /* Info-iOS.plist */,
+				6779F4E92143CE2800C97300 /* Info-watchOS.plist */,
+				6779F4EA2143CE2800C97300 /* Info-tvOS.plist */,
+				6779F4EB2143CE2800C97300 /* Info-macOS.plist */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		AA04E46A226EFA84001C9A90 /* config */ = {
+			isa = PBXGroup;
+			children = (
 				6779F5022143CE3400C97300 /* Info-iOS.plist */,
 				6779F5032143CE3400C97300 /* Info-tvOS.plist */,
 				6779F5042143CE3400C97300 /* Info-macOS.plist */,
-				67DE986E214564EA009C9A56 /* DataStructure_Node.swift */,
 			);
-			path = Tests;
+			path = config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,31 +384,31 @@
 				TargetAttributes = {
 					6779F4882143CD2B00C97300 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					6779F4912143CD2B00C97300 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					6779F4A52143CD3B00C97300 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1020;
 					};
 					6779F4B22143CD4A00C97300 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					6779F4BA2143CD4A00C97300 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					6779F4CE2143CD5C00C97300 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 					6779F4D62143CD5D00C97300 = {
 						CreatedOnToolsVersion = 9.4.1;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -384,6 +418,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 6779F47D2143CCD800C97300;
 			productRefGroup = 6779F48A2143CD2B00C97300 /* Products */;
@@ -466,8 +501,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6779F5052143CE3400C97300 /* DataStructure_Tests.swift in Sources */,
-				67DE986F214564EA009C9A56 /* DataStructure_Node.swift in Sources */,
+				6779F5052143CE3400C97300 /* DataStructureTests.swift in Sources */,
+				67DE986F214564EA009C9A56 /* DataStructureNodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,8 +526,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6779F5062143CE3400C97300 /* DataStructure_Tests.swift in Sources */,
-				67DE9870214564EA009C9A56 /* DataStructure_Node.swift in Sources */,
+				6779F5062143CE3400C97300 /* DataStructureTests.swift in Sources */,
+				67DE9870214564EA009C9A56 /* DataStructureNodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,8 +543,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6779F5072143CE3400C97300 /* DataStructure_Tests.swift in Sources */,
-				67DE9871214564EA009C9A56 /* DataStructure_Node.swift in Sources */,
+				6779F5072143CE3400C97300 /* DataStructureTests.swift in Sources */,
+				67DE9871214564EA009C9A56 /* DataStructureNodeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -657,7 +692,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INFOPLIST_FILE = "Sources/config/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -672,7 +707,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -730,7 +765,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-iOS.plist";
+				INFOPLIST_FILE = "Sources/config/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -744,7 +779,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -805,7 +840,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Tests/Info-iOS.plist";
+				INFOPLIST_FILE = "Tests/config/Info-iOS.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -819,7 +854,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -871,7 +906,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Tests/Info-iOS.plist";
+				INFOPLIST_FILE = "Tests/config/Info-iOS.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -884,7 +919,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -948,7 +983,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INFOPLIST_FILE = "Sources/config/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -962,7 +997,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1022,7 +1057,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-watchOS.plist";
+				INFOPLIST_FILE = "Sources/config/Info-watchOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1035,7 +1070,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1101,7 +1136,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INFOPLIST_FILE = "Sources/config/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1115,7 +1150,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1174,7 +1209,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-tvOS.plist";
+				INFOPLIST_FILE = "Sources/config/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1187,7 +1222,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 				VALIDATE_PRODUCT = YES;
@@ -1248,7 +1283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
+				INFOPLIST_FILE = "Tests/config/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1261,7 +1296,7 @@
 				SDKROOT = appletvos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.4;
 			};
@@ -1313,7 +1348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Tests/Info-tvOS.plist";
+				INFOPLIST_FILE = "Tests/config/Info-tvOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1325,7 +1360,7 @@
 				SDKROOT = appletvos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 11.4;
 				VALIDATE_PRODUCT = YES;
@@ -1391,7 +1426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-macOS.plist";
+				INFOPLIST_FILE = "Sources/config/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1406,7 +1441,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1465,7 +1500,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Sources/Info-macOS.plist";
+				INFOPLIST_FILE = "Sources/config/Info-macOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1479,7 +1514,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1539,7 +1574,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Tests/Info-macOS.plist";
+				INFOPLIST_FILE = "Tests/config/Info-macOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1553,7 +1588,7 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -1605,7 +1640,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = "Tests/Info-macOS.plist";
+				INFOPLIST_FILE = "Tests/config/Info-macOS.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -1618,7 +1653,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
